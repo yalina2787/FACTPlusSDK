@@ -247,7 +247,6 @@ public class FACTPlus {
                     connection.setRequestProperty("Content-Type", "application/json");
                     connection.setDoOutput(true);
 
-                    // Optionally, you can include the auth token in the request headers
                     if (authToken != null) {
                         connection.setRequestProperty("Authorization", "Bearer " + authToken);
                     }
